@@ -5,7 +5,7 @@
 --> São os primeiros passos com AdonisJS ainda com Autenticação  
 
 # Ferramentas utilizadas
-[![My Skills](https://skillicons.dev/icons?i=docker,express,adonis,js,git,npm,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=docker,express,adonis,js,git,vscode)](https://skillicons.dev)
 
 # Instruções
 Clone o Repositório:<br>

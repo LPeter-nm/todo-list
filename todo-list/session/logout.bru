@@ -1,0 +1,22 @@
+meta {
+  name: logout
+  type: http
+  seq: 2
+}
+
+delete {
+  url: http://localhost:3333/session
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: MQ.aK8hHvLLvqJqhUU7FnRSZsS1erz7nOEjroFI-3v4B-rK599CGlPUycj_8C5i
+}
+
+body:json {
+  {
+    "email": "fulano1@gmail.com", 
+    "password": "secret"
+  }
+}

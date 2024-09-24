@@ -1,0 +1,21 @@
+meta {
+  name: store
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3333/task
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: Mg.buxsh4yol7KWnMwRblSrSCwybDCOBYGAtt34rGL9WQsd9s3vY_640ZzCdVSp
+}
+
+body:json {
+  {
+    "task": "estudar"
+  }
+}

@@ -1,0 +1,23 @@
+meta {
+  name: update
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3333/task/5
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: Mg.buxsh4yol7KWnMwRblSrSCwybDCOBYGAtt34rGL9WQsd9s3vY_640ZzCdVSp
+}
+
+body:json {
+  {
+    "name": "Fulano1",
+    "email": "fulano1@gmail.com", 
+    "password": "secret"
+  }
+}

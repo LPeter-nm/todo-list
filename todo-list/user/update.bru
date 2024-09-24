@@ -1,0 +1,19 @@
+meta {
+  name: update
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3333/user
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Fulano1",
+    "email": "fulano1@gmail.com", 
+    "password": "secret"
+  }
+}
